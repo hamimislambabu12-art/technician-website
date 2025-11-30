@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://hamimislambabu12-art.github.io/technician-website/sitemap.xml
