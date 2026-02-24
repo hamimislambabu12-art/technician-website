@@ -1,15 +1,45 @@
-DOCTYPE html>
+<!DOCTYPE html>
 <html lang="bn">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="দক্ষ টেকনিশিয়ান সার্ভিস - ইলেকট্রিক, প্লাম্বিং এবং এসি মেরামত।">
-    <title>TechFix | টেকনিশিয়ান সার্ভিস</title>
+    <meta name="description" content="দক্ষ টেকনিশিয়ান সার্ভিস - ইলেকট্রিক, প্লাম্বিং এবং এসি মেরামত।">
+    <title>TechFix | প্রফেশনাল টেকনিশিয়ান সার্ভিস</title>
     <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    
+    <style>
+        /* ফ্লোটিং হোয়াটসঅ্যাপ বাটনের জন্য বাড়তি স্টাইল */
+        .floating-whatsapp {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #25d366;
+            color: #fff;
+            width: 60px;
+            height: 60px;
+            border-radius: 50px;
+            text-align: center;
+            font-size: 35px;
+            box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+        .floating-whatsapp:hover { transform: scale(1.1); background-color: #128c7e; }
+        .hero-buttons { display: flex; gap: 15px; flex-wrap: wrap; justify-content: center; margin-top: 25px; }
+        .contact-info-card i { font-size: 30px; margin-bottom: 10px; display: block; }
+    </style>
 </head>
 <body>
+
+    <a href="https://wa.me/971566551283" class="floating-whatsapp" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
 
     <nav>
         <div class="logo">Tech<span>Fix</span></div>
@@ -17,42 +47,65 @@ DOCTYPE html>
             <li><a href="#home">হোম</a></li>
             <li><a href="#services">সার্ভিস</a></li>
             <li><a href="#contact">যোগাযোগ</a></li>
-
-
         </ul>
     </nav>
 
     <header id="home" class="hero">
-        <h1>প্রয়োজনীয় টেকনিশিয়ান এখন আপনার হাতের মুঠোয়</h1>
-        <p>নির্ভরযোগ্য ইলেকট্রিক, প্লাম্বিং এবং এসি সার্ভিস পান দ্রুত সময়ে।</p>
-        <a href="#contact" class="btn">সার্ভিস বুক করুন</a>
+        <h1>আপনার টেকনিক্যাল সমস্যার সহজ সমাধান</h1>
+        <p>নির্ভরযোগ্য ইলেকট্রিক, প্লাম্বিং এবং এসি সার্ভিস। আমরা আছি আপনার পাশে।</p>
+        <div class="hero-buttons">
+            <a href="https://wa.me/971566551283" class="btn" style="background: #007bff;"><i class="fab fa-whatsapp"></i> UAE যোগাযোগ</a>
+            <a href="https://wa.me/8801772246519" class="btn" style="background: #25d366;"><i class="fab fa-whatsapp"></i> BD যোগাযোগ</a>
+        </div>
     </header>
 
     <section id="services" class="services">
-        <h2>আমাদের সেবাসমূহ</h2>
+        <h2>আমরা যা প্রদান করি</h2>
         <div class="service-container">
             <div class="service-card">
-                <i class="fas fa-bolt"></i>
-                <h3>ইলেকট্রিক সার্ভিস</h3>
-                <p>সব ধরণের ওয়্যারিং ও মেরামত।</p>
+                <i class="fas fa-plug-circle-bolt"></i>
+                <h3>ইলেকট্রিক</h3>
+                <p>নিরাপদ ওয়্যারিং ও মেরামত।</p>
             </div>
             <div class="service-card">
-                <i class="fas fa-faucet"></i>
-                <h3>প্লাম্বিং সার্ভিস</h3>
-                <p>পাইপলাইন ও স্যানিটারি সমস্যার সমাধান।</p>
+                <i class="fas fa-faucet-drip"></i>
+                <h3>প্লাম্বিং</h3>
+                <p>পাইপলাইন ও স্যানিটারি সলিউশন।</p>
             </div>
             <div class="service-card">
                 <i class="fas fa-snowflake"></i>
                 <h3>এসি সার্ভিস</h3>
-                <p>এসি ইনস্টলেশন ও গ্যাস রিফিল।</p>
+                <p>ইনস্টলেশন ও গ্যাস রিফিল।</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="services" style="background: #e9ecef;">
+        <h2>সরাসরি আমাদের সাথে কথা বলুন</h2>
+        <div class="service-container">
+            <div class="service-card contact-info-card">
+                <i class="fas fa-envelope-open-text" style="color: #d44638;"></i>
+                <h3>ইমেল করুন</h3>
+                <p><a href="mailto:hamimislambabu12@gmail.com" style="color: #333; text-decoration: none; font-weight: bold;">hamimislambabu12@gmail.com</a></p>
+            </div>
+            <div class="service-card contact-info-card">
+                <i class="fas fa-location-dot" style="color: #007bff;"></i>
+                <h3>UAE অফিস</h3>
+                <p>কল করুন: +971 0566551283</p>
+            </div>
+            <div class="service-card contact-info-card">
+                <i class="fas fa-phone-flip" style="color: #28a745;"></i>
+                <h3>BD অফিস</h3>
+                <p>কল করুন: +880 1772246519</p>
             </div>
         </div>
     </section>
 
     <footer>
-        <p>&copy; 2026 TechFix Service | All Rights Reserved.</p>
+        <p>&copy; 2026 TechFix | সকল স্বত্ব সংরক্ষিত।</p>
+        <p>ডিজাইন ও ডেভেলপমেন্ট: <strong>Hamim Islam Babu</strong></p>
     </footer>
 
     <script src="assets/js/script.js"></script>
 </body>
-            </html>
+</html>
