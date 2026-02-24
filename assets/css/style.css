@@ -48,10 +48,12 @@ nav {
 
 .nav-links a:hover { color: #e67e22; }
 
-/* Hero Section */
+/* Hero Section with Online Image */
 .hero {
-    height: 60vh;
-    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../images/hero-bg.jpg') no-repeat center center/cover;
+    height: 70vh;
+    /* এখানে অনলাইন থেকে টেকনিশিয়ানের ছবি লোড হবে */
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), 
+                url('https://images.unsplash.com/photo-1621905251189-08b45d6a269e?q=80&w=2069&auto=format&fit=crop') no-repeat center center/cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -61,51 +63,58 @@ nav {
     padding: 0 20px;
 }
 
-.hero h1 { font-size: 3rem; margin-bottom: 10px; }
+.hero h1 { font-size: 3rem; margin-bottom: 15px; text-shadow: 2px 2px 4px rgba(0,0,0,0.5); }
+.hero p { font-size: 1.2rem; margin-bottom: 25px; }
 
 .btn {
-    padding: 12px 30px;
+    padding: 15px 35px;
     background: #e67e22;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
-    margin-top: 20px;
+    font-weight: bold;
     transition: 0.3s;
 }
 
-.btn:hover { background: #d35400; }
+.btn:hover { background: #d35400; transform: scale(1.05); }
 
 /* Services */
-.services { padding: 50px 10%; text-align: center; }
+.services { padding: 80px 10%; text-align: center; }
+.services h2 { font-size: 2.5rem; margin-bottom: 40px; color: #2c3e50; }
 
 .service-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-    margin-top: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
 }
 
 .service-card {
     background: #fff;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    padding: 40px 20px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.05);
     transition: 0.3s;
+    border-bottom: 4px solid transparent;
 }
 
-.service-card:hover { transform: translateY(-5px); }
+.service-card:hover { 
+    transform: translateY(-10px); 
+    border-bottom: 4px solid #e67e22;
+}
 
 .service-card i {
-    font-size: 40px;
+    font-size: 50px;
     color: #e67e22;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
+
+.service-card h3 { margin-bottom: 15px; color: #2c3e50; }
 
 /* Footer */
 footer {
     background: #2c3e50;
     color: #fff;
     text-align: center;
-    padding: 20px;
-    margin-top: 40px;
-  }
+    padding: 30px;
+    margin-top: 60px;
+    }
