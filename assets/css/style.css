@@ -118,3 +118,28 @@ footer {
     padding: 30px;
     margin-top: 60px;
     }
+​.faq-section {
+max-width: 800px;
+margin: 0 auto;
+padding: 20px;
+}
+​.faq-item {
+margin-bottom: 15px;
+border-bottom: 1px solid #ccc;
+padding-bottom: 10px;
+}
+​.faq-question {
+background: none;
+border: none;
+width: 100%;
+text-align: left;
+font-size: 18px;
+font-weight: bold;
+cursor: pointer;
+color: #333;
+}
+​.faq-answer {
+padding: 10px 15px;
+background-color: #f9f9f9;
+display: none;
+}
