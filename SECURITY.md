@@ -2,20 +2,65 @@
 
 ## Supported Versions
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
+The following versions of the Technician Website project are currently supported with security updates:
 
-| Version | Supported          |
-| ------- | ------------------ |
-| 5.1.x   | :white_check_mark: |
-| 5.0.x   | :x:                |
-| 4.0.x   | :white_check_mark: |
-| < 4.0   | :x:                |
+| Version | Supported |
+| ------- | --------- |
+| Latest Release | ✅ |
+| Older Releases | ❌ |
 
-## Reporting a Vulnerability
+Users are encouraged to use the latest version to ensure they receive security fixes and improvements.
 
-Use this section to tell people how to report a vulnerability.
+---
 
-Tell them where to go, how often they can expect to get an update on a
-reported vulnerability, what to expect if the vulnerability is accepted or
-declined, etc.
+## Reporting a Security Vulnerability
+
+The security of this project is important. If you discover a vulnerability, please report it responsibly.
+
+### How to Report
+
+Please send details of the vulnerability through one of the following methods:
+
+- GitHub Issues (for non-sensitive security concerns)
+- Email: your-email@example.com
+
+When reporting a vulnerability, include:
+
+- A clear description of the issue
+- Steps to reproduce the vulnerability
+- Potential impact
+- Screenshots or proof-of-concept (if available)
+- Browser, device, and operating system information
+
+---
+
+## Response Process
+
+After receiving a report:
+
+1. We will acknowledge receipt as soon as possible.
+2. The issue will be investigated and validated.
+3. If confirmed, a fix will be developed and tested.
+4. The fix will be released in the next security update.
+5. The reporter may be credited for responsible disclosure if desired.
+
+---
+
+## Responsible Disclosure
+
+Please do not:
+
+- Publicly disclose vulnerabilities before they are fixed.
+- Attempt to access data belonging to other users.
+- Perform actions that could damage, interrupt, or degrade the service.
+
+We appreciate responsible security research and welcome reports that help improve the safety and reliability of this project.
+
+---
+
+## Project Information
+
+**Project:** Technician Website  
+**Repository:** https://github.com/HamimIslamBabu12-art/technician-website
+
+Thank you for helping keep this project secure.
